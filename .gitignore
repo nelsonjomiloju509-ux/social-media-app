@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build & dist
+dist/
+build/
+.next/
+out/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# Vite
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Database
+*.sql.bak
+postgres_data/
+
+# Uploads
+uploads/
+public/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
